@@ -87,3 +87,29 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+class TextDisplay extends StatelessWidget {
+  final String textDspl;
+  TextDisplay(this.textDspl);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      textDspl,
+      style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+      textAlign: TextAlign.center,
+    );
+  }
+}
+
